@@ -1,7 +1,7 @@
 #! /usr/bin/env python 
 
 __author__ = "Aurelien Bouvier"
-__email__ = "aurelien.bouvier@invisage.com"
+__email__ = "aurelien.bouvier@gmail.com"
 
 import os, sys
 import glob
@@ -29,7 +29,7 @@ def split_channel(image,prefix_out,channel_groups):
 
 if __name__ == '__main__':
 
-    usage = "Usage: python PyVisage.py [options] <files>"
+    usage = "Usage: python pyviz.py [options] <files>"
     
     parser = OptionParser(usage=usage)
     parser.add_option('-g','--channel_groups', default="1x1", type='string', help='channel groups for splitting. Syntax: (row)x(column)')

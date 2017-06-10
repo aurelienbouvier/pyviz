@@ -1,7 +1,7 @@
 #! /usr/bin/env python32
 
 __author__ = "Aurelien Bouvier"
-__email__ = "aurelien.bouvier@invisage.com"
+__email__ = "aurelien.bouvier@gmail.com"
 
 import visa
 import time

@@ -1,11 +1,10 @@
 from setuptools import setup
 
-setup(name='pyvisage',
+setup(name='pyviz',
       version='0.0',
-      description='Python Characterization Software',
-      url='http://www.invisage.com/',
+      description='Image Analysis Software',
+      url='https://github.com/aurelienbouvier/pyviz',
       author='Aurelien Bouvier',
-      author_email='aurelien.bouvier@invisage.com',
-      license='InVisage Technologies',
-      packages=['pyvisage'],
+      author_email='aurelien.bouvier@gmail.com',
+      packages=['pyviz'],
       zip_safe=False)
